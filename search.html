@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="gimages.html">Images</a></li>
+      <li><a href="index.html">Google</a></li>
+    </ul>
+  </nav>
+
+  <div class="header">
+    <h3>Advanced Search</h3>
+  </div>
+
+  <form action="https://www.google.com/search" method="GET" id="search-form">
+    <table class="search-table">
+      <tr>
+        <td style="width: 200px;"> Find pages with...</td>
+        <td></td>
+        <td>To do this in the search box.</td>
+      </tr>
+      <tr>
+        <td>all these words:</td>
+        <td><input type=" text" name="as_q" />
+        </td>
+        <td>Type the important words: tri-colour rat terrier</td>
+      </tr>
+      <tr>
+        <td>this exact word or phrase:</td>
+        <td><input type="text" name="as_epq" /></td>
+        <td>Put exact words in quotes: "rat terrier"</td>
+      </tr>
+      <tr>
+        <td>any of these words:</td>
+        <td><input type="text" name="as_oq" /></td>
+        <td>
+          any of these words: Type OR between all the words you want:
+          miniature OR standard
+        </td>
+      </tr>
+      <tr>
+        <td>none of these words:</td>
+        <td><input type="text" name="as_eq" /></td>
+        <td>
+          none of these words: Put a minus sign just before words that you
+          don't want: -rodent, -"Jack Russell"
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <td>Language:</td>
+        <td>
+          <select name="lr">
+            <option value="lang_en">English</option>
+            <option value="lang_fr">French</option>
+            <option value="lang_es">Spanish</option>
+          </select>
+        </td>
+        <td>Find pages in the language that you select.
+        </td>
+      </tr>
+      <tr>
+        <td>Region:</td>
+        <td>
+          <select name="cr">
+            <option value="countryUS">United States</option>
+            <option value="countryFR">France</option>
+            <option value="countryGB">United Kingdom</option>
+            <option value="countryCA">Canada</option>
+          </select>
+        </td>
+        <td>Find pages published in a particular region.
+        </td>
+      </tr>
+    </table>
+
+    <div class="submit-button">
+      <input type="submit" value="Advanced Search" />
+    </div>
+  </form>
+</body>
+
+</html>

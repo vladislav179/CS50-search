@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Images Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/90695fa766.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="search.html">Advanced Search</a></li>
+      <li><a href="index.html">Google</a></li>
+    </ul>
+  </nav>
+
+  <img src="googleimg.png " alt="Google Images" style="height: 150px; width: 500px;" />
+
+  <div class="container">
+    <form class="input" action="https://www.google.com/search" method="get">
+      <input class="action-button" type="text" name="tbm" value="isch" hidden>
+      <input id="placeholder" type="text" name="q" placeholder="Search images..." required>
+      <input class="action-button" type="submit"></input>
+      <span class="search-iconimg"><i class="fa-solid fa-magnifying-glass"></i>
+      </span>
+    </form>
+  </div>
+</body>

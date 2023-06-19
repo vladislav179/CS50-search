@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vhs;
+}
+.navbar {
+  position: relative;
+  height: 48px;
+  padding-right: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: right;
+}
+
+.logo-search {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 40px;
+  padding: 15px 10px;
+  color: black;
+}
+
+img {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  position: relative;
+}
+.input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search-icon {
+  position: absolute;
+  top: 21%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: rgb(143, 143, 143);
+}
+
+#placeholder {
+  width: 500px;
+  height: 25px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 35px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.action-buttons input {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #4285F4;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.action-buttons input:hover{
+  opacity: 85%;
+}
+
+.header {
+      margin-top: 20px;
+      padding: 30px;
+    }
+
+    .search-table {
+      width: 100%;
+      font-size: smaller;
+    }
+
+    
+
+    .search-table td {
+      border: none;
+      padding: 8px 8px;
+      box-sizing: border-box;
+
+    }
+
+    .search-table td input {
+      width: 96.8%;
+
+
+
+    }
+
+    .search-table td:first-child {
+      font-weight: bold;
+      width: 150px;
+      
+    }
+
+     .search-table td select {
+      width: 100%;
+      padding: 0 8px;
+    }
+
+    .submit-button input{
+      background-color: #4285F4;
+      color: rgb(241, 241, 241);
+      cursor: pointer;
+      border: none;
+      padding: 10px;
+      margin-left: 350px;
+      margin-top: 5px;
+    }
+
+    .submit-button input:hover{
+      opacity: 85%;
+    }
+
+    .action-button{
+      background-color: #4285F4;
+      color: rgb(241, 241, 241);
+      cursor: pointer;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+    .action-button:hover{
+      opacity: 85%;
+      
+    }
+    
+    .search-iconimg {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: rgb(143, 143, 143);
+}
